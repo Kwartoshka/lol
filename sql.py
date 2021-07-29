@@ -23,3 +23,4 @@ LIMIT 2
 
 """).fetchmany(5)
 print(req)
+print()
