@@ -15,7 +15,7 @@ req = connection.execute("""
 
 SELECT actor_id, first_name, last_name
 FROM actor
-WHERE last_name iLIKE '%%gen%%'
+WHERE last_name iLIKE '%%gender%%'
 ORDER BY first_name
 LIMIT 2
 ;
